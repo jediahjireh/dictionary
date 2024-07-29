@@ -1,0 +1,155 @@
+/* referenced https://dictionary-react-app-kohl.vercel.app for CSS styling inspiration */
+
+/* import custom font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* import written pronunciation friendly font */
+@font-face {
+  font-family: "Noto-Serif";
+  src: url("./fonts/NotoSerif-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* style and format Dictionary application elements */
+
+/* body element */
+body {
+  margin: 20px;
+  background-color: #1d2227;
+  /* imported main font */
+  font-family: "Poppins", sans-serif;
+  color: #e2e7ef;
+
+  /* import the background image file */
+  background-image: url('images/jack-lucas-smith-UqvSeGmFYBs-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* form element */
+form {
+  margin-bottom: 20px;
+}
+
+/* search input field */
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* search button */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+/* blocks for search results */
+.block {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #b71539;
+}
+
+/* main block */
+.main {
+  background-color: #b71539;
+  text-align: center;
+}
+
+/* centralise parts of speech headings */
+h3 {
+  text-align: center;
+}
+
+/* verbal and written pronunciation and syllables */
+.word-details {
+  background-color: #868a95;
+  color: rgb(239, 232, 223);
+  /* written pronunciation friendly fonts */
+  font-family: "Noto-Serif", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+/* definition block */
+.definition {
+  background-color: #303840;
+}
+
+/* synonyms block */
+.synonyms {
+  background-color: #294d78;
+}
+
+/* antonyms block */
+.antonyms {
+  background-color: #417cd4;
+}
+
+/* lexical text - antonyms and synonyms */
+.lexical {
+  color: rgb(239, 232, 223);
+}
+
+/* emphasised display of word searched for */
+.define-word {
+  font-size: xx-large;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+/* error messages */
+.error {
+  color: red;
+  text-shadow:
+    1px 1px 0 #1d2227,
+    -1px -1px 0 #1d2227,
+    1px -1px 0 #1d2227,
+    -1px 1px 0 #1d2227
+}
+
+/* style search box and heading */
+.search-box {
+  /* position it absolutely */
+  position: absolute;
+  /* centre vertically */
+  top: 50%;
+  /* centre horizontally */
+  left: 50%;
+  /* half the width and height */
+  transform: translate(-50%, -50%);
+  /* centre text inside the box */
+  text-align: center;
+  /* smooth transition for property changes */
+  transition: all 0.5s ease;
+}
+
+/* class to reset search box to the top */
+.search-box.top {
+  /* reset positioning */
+  position: static;
+  /* remove centring adjustment */
+  transform: none;
+  /* spacing at the top */
+  margin-top: 20px;
+  /* centre text inside the box */
+  text-align: left;
+}
+
+/* API credit */
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  /* create a visual separation */
+  border-top: 1px solid #ddd;
+}
+
+/* do not show audio controls */
+#background-sound audio {
+  width: 0;
+}
