@@ -2,20 +2,20 @@
 
 ## Table of Contents
 
-- [What?](#what)
-  - [Screenshots](#screenshots)
-- [Why?](#why)
-- [How?](#how)
-  - [Features](#features)
-- [Where?](#where)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Configuring Merriam-Webster API Keys](#configuring-merriam-webster-api-keys)
-    - [Running the Application](#running-the-application)
-  - [Deployment](#deployment)
-- [Who?](#who)
-  - [Credits](#credits)
+1. [What?](#what)
+   - [Screenshots](#screenshots)
+2. [Why?](#why)
+3. [How?](#how)
+   - [Features](#features)
+4. [Where?](#where)
+   - [Getting Started](#getting-started)
+     - [Prerequisites](#prerequisites)
+     - [Installation](#installation)
+     - [Configuring Merriam-Webster API Keys](#configuring-merriam-webster-api-keys)
+     - [Running the Application](#running-the-application)
+   - [Deployment](#deployment)
+5. [Who?](#who)
+   - [Credits](#credits)
 
 ## What?
 
@@ -23,12 +23,16 @@
 
 ### Screenshots
 
-Screenshots showcasing the application's key features::
+Screenshots showcasing the application's key features:
 
-- [Landing Page](/docs/screenshots/landing-page.png)
-- [Word Search Results](/docs/screenshots/search-results.png)
-- [Word Description](/docs/screenshots/word-description.png)
-- [Definition Not Found](/docs/screenshots/definition-not-found.png)
+- *Landing page with word search prompt*
+  ![Landing Page](/docs/screenshots/landing-page.png)
+- *Word Search Results*
+  ![Word Search Results](/docs/screenshots/search-results.png)
+- *Searched Word Descriptions*
+  ![Word Description](/docs/screenshots/word-description.png)
+- *Page when there are no search results*
+  ![Definition Not Found](/docs/screenshots/definition-not-found.png)
 
 ## Why?
 
